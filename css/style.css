@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    font-family: 'Arial', 'sans-serif';
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    font-style: bold;
+    font-size: 35px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.botao {
+    align-self: center;
+    background: white;
+    color: black;
+    border: 2px solid;
+}
+
+.botao:hover {
+    text-align: center;
+    background: darkslategray;
+    color: white;
+    border: 4px solid darkslategray;
+}
+
+header {
+    background-color: cyan;
+}
+
+header h3 {
+    color:black;
+    text-align: center;
+    font-style: bold;
+}
+
+.div1 {
+    align-self: center;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+}
+
+.div1 input {
+    background: darkslategray;
+    color:white;
+    border: darkslategray solid;
+    margin-bottom: 3px;
+    text-align: center;
+    margin-left: 10px
+}
+
+.div1 input:hover {
+    text-align: center;
+    background: cyan;
+    color: darkslategray;
+    border: 4px solid cyan;
+    margin-bottom: 3px;
+    text-align: center;
+    margin-left: 10px
+}
