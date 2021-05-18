@@ -29,13 +29,16 @@ p {
 }
 
 header {
-    background-color: cyan;
+    margin-top: 0%;
+    background-color: lightblue;
 }
 
-header h3 {
+header ul {
+    vertical-align: center;
     color:black;
     text-align: center;
     font-style: bold;
+    font-size: 25px;
 }
 
 .div1 {
@@ -62,4 +65,13 @@ header h3 {
     margin-bottom: 3px;
     text-align: center;
     margin-left: 10px
+}
+
+.preview {
+    mask-size: 360px 480px;
+    border: 10px darkslategray;
+}
+
+footer {
+    vertical-align: bottom;
 }
