@@ -43,15 +43,19 @@ p {
 /* área de personalização do cabeçalho*/
 header {
     margin-top: 0%;
-    background-color: lightblue;
+    background-color: rgb(86, 165, 219);
 }
 
-header ul {
+header table {
     vertical-align: center;
     color:black;
     text-align: center;
     font-style: bold;
     font-size: 25px;
+}
+
+.menu {
+    margin-left: 30px;
 }
 
 /* área de personalização da divisão da página*/
