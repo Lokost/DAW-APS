@@ -1,9 +1,11 @@
+/* área de personalização do fundo*/
 body {
     background-color: black;
     font-family: 'Arial', 'sans-serif';
     color: white;
 }
 
+/* área de personalização de títulos*/
 h1 {
     text-align: center;
     font-style: bold;
@@ -17,10 +19,12 @@ h1 {
     margin-top: 10px;
 }
 
+/* área de personalização de parágrafos*/
 p {
     font-size: 20px;
 }
 
+/* área de personalização de botões pela página*/
 .botao {
     text-align: center;
     background: darkslategray;
@@ -36,6 +40,7 @@ p {
     border: 6px solid white;
 }
 
+/* área de personalização do cabeçário */
 header {
     margin-top: 0%;
     background-color: lightblue;
@@ -49,6 +54,7 @@ header ul {
     font-size: 25px;
 }
 
+/* área de personalização da divisão da página*/
 .div1 {
     align-self: center;
     text-align: center;
@@ -64,10 +70,6 @@ header ul {
     margin-bottom: 20px;
 }
 
-footer {
-    vertical-align: bottom;
-}
-
 .titulo-noticia {
     color:black;
     font-size: 30px;
@@ -81,4 +83,9 @@ footer {
     font-size: 20px;
     text-align: left;
     margin-left: 30px;
+}
+
+/* área de personalização do rodapé*/
+footer {
+    vertical-align: bottom;
 }
