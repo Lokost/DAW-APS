@@ -10,22 +10,30 @@ h1 {
     font-size: 35px;
 }
 
+#titulo{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
 p {
     font-size: 20px;
 }
 
 .botao {
-    align-self: center;
-    background: white;
-    color: black;
-    border: 2px solid;
-}
-
-.botao:hover {
     text-align: center;
     background: darkslategray;
     color: white;
     border: 4px solid darkslategray;
+    margin-left: 30px;
+}
+
+
+.botao:hover {
+    background: white;
+    color: darkslategray;
+    border: 6px solid white;
 }
 
 header {
@@ -48,30 +56,29 @@ header ul {
     color: black;
 }
 
-.div1 input {
-    background: darkslategray;
-    color:white;
-    border: darkslategray solid;
-    margin-bottom: 3px;
-    text-align: center;
-    margin-left: 10px
-}
-
-.div1 input:hover {
-    text-align: center;
-    background: cyan;
-    color: darkslategray;
-    border: 4px solid cyan;
-    margin-bottom: 3px;
-    text-align: center;
-    margin-left: 10px
-}
-
 .preview {
-    mask-size: 360px 480px;
-    border: 10px darkslategray;
+    border: 10px solid darkslategray;
+    width: 320px;
+    height: 200px;
+    margin-left: 30px;
+    margin-bottom: 20px;
 }
 
 footer {
     vertical-align: bottom;
+}
+
+.titulo-noticia {
+    color:black;
+    font-size: 30px;
+    font-style: italic;
+    text-align: left;
+    margin-left: 30px;
+}
+
+.desc-noticia {
+    color: darkslategray;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 30px;
 }
