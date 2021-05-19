@@ -1,6 +1,6 @@
+/* área de personalização do fundo*/
 @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
 
-/* área de personalização do fundo*/
 body {
     background-color: black;
     font-family: 'Reggae One', 'sans-serif';
@@ -52,21 +52,21 @@ p {
 
 .preview {
     border: 10px solid darkslategray;
-    width: 320px;
+    width: 200px;
     height: 200px;
     margin-left: 30px;
     margin-bottom: 20px;
 }
 
-.titulo-noticia {
+.titulo-produto {
+    font-style: bold;
     color:black;
     font-size: 30px;
-    font-style: italic;
     text-align: left;
     margin-left: 30px;
 }
 
-.desc-noticia {
+.preco-produto {
     color: darkslategray;
     font-size: 20px;
     text-align: left;
@@ -76,4 +76,10 @@ p {
 /* área de personalização do rodapé*/
 footer {
     vertical-align: bottom;
+}
+
+/* personalização do banner */
+.banner {
+    width: 100%;
+    height: auto;
 }
