@@ -1,0 +1,81 @@
+/* área de personalização do fundo*/
+@import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap');
+
+body {
+    background-color: black;
+    font-family: 'Reggae One', 'sans-serif';
+    color: white;
+}
+
+/* área de personalização de títulos*/
+h1 {
+    text-align: center;
+    font-style: bold;
+    font-size: 35px;
+}
+
+#titulo{
+    color: black;
+    font-size: 50px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    opacity: 100%
+}
+
+/* área de personalização de parágrafos*/
+p {
+    font-size: 20px;
+    text-align: left;
+    color:rgb(75, 75, 75);
+    margin-left: 20%;
+    margin-right:20%;
+}
+
+h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+/* área de personalização de botões pela página*/
+.botao {
+    text-align: center;
+    background: darkslategray;
+    color: white;
+    border: 4px solid darkslategray;
+    margin-left: 30px;
+}
+
+
+.botao:hover {
+    background: white;
+    color: darkslategray;
+    border: 6px solid white;
+}
+
+/* área de personalização da divisão da página*/
+.div1 {
+    align-self: center;
+    text-align: center;
+    background-color: lightgray;
+    color: black;
+}
+
+.data {
+    text-align: right;
+    color: rgb(119, 119, 119);
+    font-size: 15px;
+}
+
+.post {
+    align-self: center;
+    width: auto;
+    height: 520px;
+    border: 15px solid gray;
+}
+
+footer p {
+    color: white;
+    vertical-align: bottom;
+}
