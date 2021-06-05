@@ -38,22 +38,6 @@ h2 {
     margin-right: 20%;
 }
 
-/* área de personalização de botões pela página*/
-.botao {
-    text-align: center;
-    background: darkslategray;
-    color: white;
-    border: 4px solid darkslategray;
-    margin-left: 30px;
-}
-
-
-.botao:hover {
-    background: white;
-    color: darkslategray;
-    border: 6px solid white;
-}
-
 /* área de personalização da divisão da página*/
 .div1 {
     align-self: center;
